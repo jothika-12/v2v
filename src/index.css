@@ -1,8 +1,5 @@
 * {
-  /* font-family: "EB Garamond", serif; */
-  /* font-family: "EB Garamond", serif; */
   font-family: "Monda", sans-serif;
-  /* font-family: "Inknut Antiqua", serif; */
 }
 
 :root {
@@ -16,14 +13,12 @@
   --black-clr: #000208;
   --faded-color: #F6F6F6;
   --grey-color: #6B7280;
-
 }
 
 h1 {
   font-size: 52px;
   color: var(--black-clr) !important;
   font-weight: bold;
-  /* font-family: "Yatra One", system-ui; */
 }
 
 
@@ -31,8 +26,6 @@ h2 {
   color: var(--heading-color) !important;
   font-size: 50px;
   font-weight: bold;
-
-  /* font-family: "Yatra One", system-ui; */
   text-transform: uppercase;
 
 }
@@ -75,28 +68,20 @@ body {
   padding: 3px 15px;
   border-radius: 40px;
   font-size: 13px;
-
 }
 
 .nav-link {
   color: var(--black-clr) !important;
   text-transform: uppercase;
-
   padding-right: 15px !important;
   padding-bottom: 0px !important;
   font-size: 14px !important;
-  /* text-decoration: none; 9*/
   position: relative;
 }
 
-
-
-
-/* Add underline on hover */
 .nav-link:hover {
   text-decoration: none;
 }
-
 .nav-item {
   display: inline-block !important;
   padding: 10px;
@@ -107,32 +92,20 @@ body {
   position: absolute;
   width: 0;
   height: 2px;
-  /* Thickness of the underline */
   left: 10px;
-
   bottom: -5px;
-
-  /* Position the underline just below the link */
   background-color: #000;
-  /* Color of the underline */
   transition: width 0.6s ease;
-  /* Smooth transition */
 }
 
 .nav-link:hover::after {
   width: 35px;
   left: 10px;
 
-  /* Full width underline on hover */
 }
-
-
-
-
 .navbar-toggler {
   padding: none;
   font-size: var(--bs-navbar-toggler-font-size);
-
   color: var(--heading-color);
   font-size: 30px;
   background-color: transparent;
@@ -140,22 +113,12 @@ body {
 
 }
 
-
-
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
   box-shadow: none !important;
 }
 
-
-
-
-/* NAV BAR STARTS HERE  */
-
-
-
-/* SECTION PADDING STARTS HERE  */
 
 .introSec,
 .aboutUs,
@@ -170,57 +133,27 @@ body {
   padding-top: 50px !important;
 }
 
-/* iNTRO SECTION STARTS HERE  */
-
 .titleHighlight {
   color: var(--primary-color);
 }
-
-
 h1 {
   color: var(--heading-color);
 }
-
-.introSec p {
-  /* font-size: 20px; */
-}
-
 .introSec {
   background-color: var(--secondary-color);
 }
 
-/* iNTRO SECTION ENDS HERE  */
-
-
-
-/* ABOUT US SECTION STARTS HERE  */
-
-.aboutUs {}
-
-/* ABOUT US SECTION STARTS HERE  */
-
-
-
-
-/* INSTRUCTION SEC STARTS HERE  */
 .instrCard {
   min-height: 210px;
-  /* width: 350px; */
   padding: 25px !important;
   border-radius: 20px;
   box-shadow: 0.3px 0.3px 8px var(--primary-color);
 }
-
-
 .instructTitle {
   font-weight: 700;
 }
 
-/* INSTRUCTION SEC STARTS HERE  */
-
-
 .instructionSec {
-
   background-color: var(--faded-color);
 }
 
@@ -229,13 +162,7 @@ h1 {
   color: var(--light-white);
 }
 
-
-
-/* START YOUR EAXM STARTS HERE  */
-
 .ExamDetailsCards {
-
-  /* width: 350px; */
   padding: 25px !important;
   border-radius: 20px;
   box-shadow: 0.3px 0.3px 8px var(--primary-color);
@@ -243,11 +170,8 @@ h1 {
 
 .recogContent {
   white-space: pre-line;
-  /* This preserves whitespace and newlines */
 }
 
-
-/* Hide the default file input */
 .fileInput {
   position: absolute;
   opacity: 0;
@@ -263,9 +187,6 @@ h1 {
   color: var(--black-clr);
 }
 
-
-
-
 .examDetIcons svg {
   font-size: 30px;
   color: var(--heading-color);
@@ -279,8 +200,6 @@ h1 {
   padding: 2px 15px;
   border-radius: 49px;
 }
-
-
 
 .btnUploads {
   border: none;
@@ -296,12 +215,10 @@ h1 {
   font-weight: bold;
 }
 
-
 .ExamDetailsCards.purple {
   background-color: var(--primary-color);
   color: var(--light-white);
 }
-
 
 .examDetailsTitle {
   font-weight: 700;
@@ -337,6 +254,34 @@ h1 {
   margin-top: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .printBtnCont {
   width: fit-content;
   margin: auto;
@@ -362,17 +307,6 @@ h1 {
 
 }
 
-/* START YOUR EAXM ENDS HERE  */
-
-/* MEET OUR TEAM STARTS HERE  */
-/* 
-.teamMemDetailCont {
-  width: 250px;
-  background-color: var(--light-white);
-  padding: 15px;
-  height: fit-content;
-  box-shadow: 0.5px 0.5px 5px var(--card-bg);
-}*/
 .teamMemDetailCont {
   width: 250px;
   box-shadow: 0.5px 0.5px 5px var(--card-bg);
@@ -414,26 +348,14 @@ h1 {
   color: var(--grey-color);
   margin-right: 15px;
 }
-
-.slick-slide {
-  /* margin-right: 1px; */
-}
-
 .meetOurTeam {
   background-color: var(--faded-color);
 }
-
-/* MEET OUR TEAM ENDS HERE  */
-
-
-
-/* CONTACT SUPPORT STARTS HERE  */
 
 .form-control {
   background-color: var(--input-bg) !important;
   border-radius: 0px 20px 20px 0px !important;
   border: none !important;
-
 }
 
 .input-group-text {
@@ -451,7 +373,6 @@ h1 {
 .contactSupport svg {
   font-size: 15px;
   margin-right: 10px;
-
 }
 
 .form-control {
@@ -461,10 +382,6 @@ h1 {
 .form-control:focus {
   box-shadow: none !important;
 }
-
-/* textarea.form-control {
-  border-radius: 0px 15px 15px 0px !important;
-} */
 textarea.form-control {
   padding: 20px;
   border-radius: 12px !important;
@@ -489,11 +406,6 @@ textarea.form-control {
 small {
   font-size: 12px;
 }
-
-/* CONTACT SUPPORT ENDS HERE  */
-
-/* FOOTER STARTS HERE  */
-
 
 .footerBase {
   font-size: 12px;
@@ -522,54 +434,28 @@ small {
   padding-top: 20px;
 }
 
-/* FOOTER ENDS HERE  */
-
-
-* Customize scrollbar width and color */::-webkit-scrollbar {
-  width: 12px;
-  /* width of the vertical scrollbar */
-  height: 12px;
-  /* height of the horizontal scrollbar */
-}
-
-/* Track of the scrollbar */
 ::-webkit-scrollbar-track {
   background: #170a47;
-  /* Track color */
 }
-
-/* Handle of the scrollbar */
 ::-webkit-scrollbar-thumb {
   background-color: #7c0000;
-  /* Scrollbar handle color */
   border-radius: 10px;
-  /* Rounded corners */
   border: 2px solid #3700ff;
-  /* Optional border around handle */
 }
 
-/* Handle hover */
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--primary-color);
-  /* Darker color when hovering */
+
 }
 
 
 
 
-/* Firefox scrollbar styling */
 * {
   scrollbar-width: thin;
-
-  /* Adjust scrollbar width */
   scrollbar-color: var(--primary-color)var(--faded-color);
-  /* thumb color and track color */
+
 }
-
-
-
-/* MEDIA QUERIES STARTS HERE  */
-
 
 
 @media only screen and (max-width:992px) {
@@ -588,7 +474,6 @@ small {
     font-size: 44px;
     color: var(--black-clr) !important;
     font-weight: bold;
-    /* font-family: "Yatra One", system-ui; */
   }
 
 
@@ -596,8 +481,6 @@ small {
     color: var(--heading-color) !important;
     font-size: 42px;
     font-weight: bold;
-
-    /* font-family: "Yatra One", system-ui; */
     text-transform: uppercase;
 
   }
@@ -623,7 +506,6 @@ small {
     font-size: 36px;
     color: var(--black-clr) !important;
     font-weight: bold;
-    /* font-family: "Yatra One", system-ui; */
   }
 
 
@@ -631,8 +513,6 @@ small {
     color: var(--heading-color) !important;
     font-size: 32px;
     font-weight: bold;
-
-    /* font-family: "Yatra One", system-ui; */
     text-transform: uppercase;
 
   }
@@ -648,5 +528,3 @@ small {
     font-family: "Roboto", sans-serif;
   }
 }
-
-/* MEDIA QUERIES ENDS HERE  */
